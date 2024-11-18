@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
-
 import Skill from "@/components/Skill";
-import Project from "@/components/Project";
 import Link from "next/link";
 import About from "@/components/About";
+import "../style.css"
 
 
 
@@ -20,8 +19,8 @@ export default function Home() {
       </div>
 
       <div className="container mx-auto z-40 md:flex md:justify-between md:items-center pl-4 pr-4 mt-16">
-        <div>
-          <h1 className="text-[70px]  md:text-[110px] leading-[4rem] md:leading-[6rem] pl-3">MERN <br /> Stack <br /> Developer</h1>
+        <div className="">
+          <h1 className="text-[70px]  md:text-[110px] leading-[4rem] md:leading-[6rem] pl-3">MERN<br /> Stack <br /> Developer</h1>
         </div>
         <div className="w-1/2 mt-8  relative items-center">
           {/* <Image
@@ -31,7 +30,7 @@ export default function Home() {
             sizes="(min-width: 808px) 50vw, 100vw"
             className="ml-8 w-20 h-20"
           /> */}
-          <Image src="/image/feature.jpg" alt="Not found" height={400} width={600} className="ml-8" />
+          <Image src="/image/feature.jpg" alt="Not found" height={400} width={600} className="ml-8 imgstyle" />
         </div>
       </div>
       <div className="container mx-auto flex flex-wrap gap-6 justify-between  pl-8 pr-8 mb-8 mt-8">

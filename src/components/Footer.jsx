@@ -1,5 +1,6 @@
 import React from 'react'
 import Contact from './Contact'
+import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -22,10 +23,11 @@ export default function Footer() {
           <div className='text-2xl'>
             <h1>Social Media</h1>
           </div>
-          <div className=' place-content-start'>
-            <h2>Lorem ipsum dolor sit.</h2>
-            <h2>Lorem ipsum dolor sit.</h2>
-            <h2>Lorem ipsum dolor sit.</h2>
+          <div className=' place-content-start flex flex-wrap gap-4'>
+           <a href="https://www.facebook.com/"> <Image src="/image/facebook.png" width={100} height={100} alt="" className='w-16 h-16'  /></a>
+           <a href="https://www.linkedin.com/"><Image src="/image/linkedin.png" width={100} height={100} alt="" className='w-16 h-16'  /></a>
+           <a href="https://www.instagram.com/"> <Image src="/image/instagram.png" width={100} height={100} alt="" className='w-16 h-16'  /></a>
+            
           </div>
         </div>
       </div>

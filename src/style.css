@@ -1,0 +1,7 @@
+.imgstyle{
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.txtStyle{
+    clip-path: polygon(0 0, 100% 0, 51% 100%, 0% 100%);
+}

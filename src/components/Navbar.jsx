@@ -17,7 +17,7 @@ export default function Navbar() {
 
     <>
       <div className=''>
-        <nav className='z-20 bg-slate-300 h-16  flex justify-between items-center rounded-lg  max-w-8xl mx-auto fixed top-0 left-0 w-full right-0  '>
+        <nav className='z-20  h-16  flex justify-between items-center rounded-lg  max-w-8xl mx-auto fixed top-0 left-0 w-full right-0  '>
           <div className='text-2xl ml-2'><h1>Aman Kumar Sharma</h1></div>
           {isOpen === true ? <div className='md:hidden fixed left-0 top-0 w-[20rem] h-screen bg-red-300'>
             <div className='md:hidden flex flex-col gap-y-12  place-items-center pl-2 pr-2'>

@@ -33,9 +33,9 @@ export const SkillLink: React.FC<SkillLinkProps> = ({ skill, path }) => {
     )
 }
 
-export const NavLink: React.FC<CustomLinkProps> = ({ href, title, skill }) => {
+export const NavLink: React.FC<CustomLinkProps> = ({ href, title }) => {
     return (
-        <div className='  '><Link href={href} >{title}</Link></div>
+        <div className=''><Link href={href} >{title}</Link></div>
 
     )
 }

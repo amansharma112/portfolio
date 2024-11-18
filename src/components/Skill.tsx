@@ -1,6 +1,5 @@
 import React from 'react'
 import { SkillLink } from './common'
-import Link from 'next/link'
 import { backend, frontend } from '@/utils/data'
 
 export default function Skill() {
@@ -22,7 +21,9 @@ export default function Skill() {
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                         {backend.map((project) => (
                             <div key={project.id} className=''>
-                                <SkillLink skill={project.skill} path={project.path} />
+                               <a href={project.url}>
+                               <SkillLink skill={project.skill} path={project.path} />
+                               </a>
                             </div>
                         ))}
                     </div>
